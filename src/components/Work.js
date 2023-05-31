@@ -20,8 +20,8 @@ const Work = () => {
          className='flex-1 flex flex-col gap-y-4 mb-10 lg:mb-0'>
           {/*Texto*/}
           <h2 className='h2 text-red-600'><br/>Projetos <br/>Feitos</h2>
-            <p className='max-w-sm mb-16 text-slate-700 font-medium'>Os projetos Mostrados, são atividades feita desenvolvida e feito em curso, em Html, Css, Javascript e Reactjs.</p>
-            <button className='btn btn-sm w-[128px]'>Projetos</button>
+          <button className='btn btn-sm w-[128px]'>Projetos</button>
+            <p className='max-w-sm mb-16 text-slate-700 font-medium'>Os projetos Mostrados, são atividades feita desenvolvida e feitas em curso, em Html, Css, Javascript e Reactjs.</p>
            {/*img*/}
           <div className='group relative overflow-hidden border-2 
           border-grey/50 rounded-xl mr-2 mt-0'>
