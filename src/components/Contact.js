@@ -9,16 +9,16 @@ import { fadeIn } from '../variants'
 const Contact = () => {
   const [name, setName]= useState('');
   const [email, setEmail]= useState('');
-  const [mensagem, setMensagem]= useState('');
+  const [menssage, setMenssage]= useState('');
   function sendEmail(e){
     e.preventDefault();
-    if(name ===''|| email ==='' || mensagem ===''){
+    if(name ===''|| email ==='' || menssage ===''){
       alert('Preencha os Campos');
       return;
     }
     const templateParams = {
       from_name: name,
-      mensagem: mensagem,
+      menssage: menssage,
       email: email
     }
     emailJs.send("service_4ekbwjg","template_e7sxt7v",templateParams,"sz2u6o20HjTy5RhEH")
@@ -26,9 +26,9 @@ const Contact = () => {
       console.log("Email envido", response.status, response.text)
       setName('')
       setEmail('')
-      setMensagem('')
+      setMenssage('')
     },(err)=>{
-      console.log("ERRO: " ,err)
+      console.log("ERRO: ",err)
     })
   }
   return(
@@ -78,8 +78,8 @@ const Contact = () => {
             placeholder='Digite seu E-mail'
             />
             <textarea 
-            value={mensagem}
-            onChange={(e) => setMensagem(e.target.value)}
+            value={menssage}
+            onChange={(e) => setMenssage(e.target.value)}
             className='bg-transparent border-b py-3 outline-none w-full 
             placeholder:text-white focus:border-red-600 transition-all 
             resize-none mb-12'
