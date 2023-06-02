@@ -37,8 +37,8 @@ const About = () => {
               className='flex-1'>
               <h2 className='h2 text-red-600 '>Sobre mim</h2>
               <h3 className='h3 mb-4'>Sou um Desenvolvedor Front-end fascinado por Tecnologia.</h3>
-              <p className='mb-6 text-slate-700 font-medium'>Em 2016 tive o conhecimento do básico do Digner com Photoshop, Ilustraitor, Adobe Premier ,After Efects e Blender. O primeiro contado que tive com a programação foi em 2016 com o famoso 'HELLO WORLD'
-                , mas foi me aprofundar neste mundo Dev em 2022 onde me encantei pela programação.</p>
+              <p className='mb-6 text-slate-700 font-medium'>Em 2016 tive o conhecimento do básico do Designer com Photoshop, Ilustraitor, Adobe Premier, After Efects e Blender. O primeiro contado que tive com a programação foi em 2016 com o famoso 'HELLO WORLD'
+                , mas fui me aprofundar neste mundo Dev em 2022 onde me encantei pela programação.</p>
             </motion.div>
             {/* Starts*/}
             {/*<div className='flex gap-x-6 lg:gap-x-10 mb-12'>
