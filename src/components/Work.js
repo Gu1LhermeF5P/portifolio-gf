@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 import { fadeIn } from '../variants'
 //Imagens
 import img1 from '../assets/starbucks.png';
-import img2 from '../assets/starbucks.png';
+import img2 from '../assets/cineclub.png';
 import img3 from '../assets/pizza.png';
 const Work = () => {
   return(
@@ -20,7 +20,7 @@ const Work = () => {
          className='flex-1 flex flex-col gap-y-4 mb-10 lg:mb-0'>
           {/*Texto*/}
           <h2 className='h2 text-red-600'><br/>Projetos <br/>Feitos</h2>
-          <button className='btn btn-sm w-[128px]'>Projetos</button>
+          <a href='https://github.com/Gu1LhermeF5P?tab=repositories'><button className='btn btn-sm w-[128px]'src="">Projetos</button></a>
             <p className='max-w-sm mb-16 text-slate-700 font-medium'>Os projetos Mostrados, são atividades feita desenvolvida e feitas em curso, em Html, Css, Javascript e Reactjs.</p>
            {/*img*/}
           <div className='group relative overflow-hidden border-2 
@@ -51,14 +51,14 @@ const Work = () => {
             {/* overlay*/}
             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'></div>
             {/*img */}
-            <img className='group-hover:scale-125 transition-all duration-500' src={img1} alt=''/>
+            <img className='group-hover:scale-125 transition-all duration-500' src={img2} alt=''/>
             <div className='absolute -bottom-full left-12 
             group-hover:bottom-24 transition-all duration-500 z-50'>
-              <span className='text-3xl  text-green-600 font-medium'>Uso de Grid Html/Css</span>
+              <span className='text-3xl  text-orange-600 font-medium'>Uso de React</span>
             </div>
             <div className='absolute -bottom-full left-12 
              group-hover:bottom-14 transition-all duration-500 z-50'>
-              <span className='text-2xl text-white '>Starbucks Grid</span>
+              <span className='text-2xl text-white'>Clubcine</span>
             </div>
           </motion.div >
           {/*img*/}
